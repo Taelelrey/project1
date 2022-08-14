@@ -2,6 +2,7 @@
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
+              
                <i class="fa fa-times" onclick="hideMenu()"></i>
 
                 <ul>

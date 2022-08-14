@@ -5,7 +5,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <link rel="stylesheet" href="tags.css">
+      <link rel="stylesheet" href="css/tags.css">
 </head>
 <body>
     <div class="container">
@@ -13,9 +13,9 @@
   <br />
   <br />
   <div class="tag-container">
-    <input  />  
+    <input  />
         <script>
-        
+
 const tagContainer = document.querySelector('.tag-container');
 const input = document.querySelector('.tag-container input');
 
@@ -51,9 +51,9 @@ function addTags() {
 input.addEventListener('keyup', (e) => {
     if (e.key === 'Enter') {
       e.target.value.split(',').forEach(tag => {
-        tags.push(tag);  
+        tags.push(tag);
       });
-      
+
       addTags();
       input.value = '';
     }
@@ -64,14 +64,14 @@ document.addEventListener('click', (e) => {
     const tagLabel = e.target.getAttribute('data-item');
     const index = tags.indexOf(tagLabel);
     tags = [...tags.slice(0, index), ...tags.slice(index+1)];
-    addTags();    
+    addTags();
   }
 })
 
-input.focus(); 
+input.focus();
         </script>
   </div>
-  
+
 </div>
 </body>
 </html>

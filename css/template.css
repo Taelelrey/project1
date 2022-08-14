@@ -22,14 +22,14 @@ nav img {
 }
 .text-box{
     width: 90%;
-    color: #fff;
+    color: ##FFBA5F;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-  
-   
+
+
 }
 .text-box h1{
     font-size: 62px;
@@ -70,7 +70,7 @@ p{
 .template-content{
     flex-basis: 31%;
     background-size: cover;
-    background-color:#fff3f3;
+    background-color:##FFBA5F;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
