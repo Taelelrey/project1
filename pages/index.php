@@ -7,7 +7,7 @@ include_once'header.php';
    <meta name="viewport"content="with=device-width,initial-
    scale=1.0">
      <title>Story pal </title>
-	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="../style.css">
 	 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -47,19 +47,19 @@ include_once'header.php';
 
          <div class="row">
             <div class= "campus-col">
-                <img src="images/32.jpg" >
+                <img src="../assets/images/32.jpg" >
                 <div class="layer">
                     <h3>ATTRIBUTES</h3>
                 </div>
             </div>
             <div class= "campus-col">
-                <img src="images/3.jpg">
+                <img src="../assets/images/3.jpg">
                 <div class="layer">
                     <h3>BACKGROUND</h3>
                 </div>
             </div>
             <div class= "campus-col">
-                <img src="images/28.jpg" >
+                <img src="../assets/images/28.jpg" >
                 <div class="layer">
                     <h3>CONSEQUENCES</h3>
                 </div>
@@ -79,17 +79,17 @@ include_once'header.php';
 
        <div class= "row">
        <div class="facilities-col">
-            <img src="images/temp.jpg" >
+            <img src="../assets/images/temp.jpg" >
            <h3>Amazing templates</h3>
            <p>ksoocfojsol jnskdjnndkn njdskjsik </p>
        </div>
           <div class="facilities-col">
-            <img src="images/earth.1.jpg" >
+            <img src="../assets/images/earth.1.jpg" >
            <h3> Timeline</h3>
            <p>ksoocfojsol jnskdjnndkn njdskjsik </p>
        </div>
           <div class="facilities-col">
-            <img src="images/Earth.png" >
+            <img src="../assets/images/Earth.png" >
            <h3>World and charcter building</h3>
            <p>ksoocfojsol jnskdjnndkn njdskjsik </p>
        </div>
@@ -102,7 +102,7 @@ include_once'header.php';
 
     <section class= "cta">
         <h1>Begin your journey with Author pal <br>from anywhere in the world</h1>
-        <a href="" class="hero-btn">SIGN UP</a>
+        <a href="../auth/signup.php" class="hero-btn">SIGN UP</a>
     </section>
 
 

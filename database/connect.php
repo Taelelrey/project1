@@ -9,6 +9,7 @@ function connect(){
   return $dblink;
 }
 
+// This function sets data into the database
 function setData($query){
   $link= connect();
   if (mysqli_query($link, $query)) {

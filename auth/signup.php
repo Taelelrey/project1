@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="css/login.css">
 
 </head>
 <body>
   <form action="auth_data.php" method="POST">
-        <h2>Login</h2>
+        <h2>Signup</h2>
         <?php if (isset($_GET['error'])) {?>
           <p> class="error"><?php echo $_GET['error'];?></p>
         <?php } ?>
-        <label>Username</label>
+        <label>Usename</label>
         <input type="text" name="uname" placeholder="User Name"><br>
 
         <label>Password</label>
         <input type="password" name="password" placeholder="Password "><br>
 
-        <p>Don't have an account? <a href="signup.php">Signup</a></p>
+        <label>Confirm Password</label>
+        <input type="password" name="cpassword" placeholder="Confirm Password "><br>
 
-        <button type="submit" name="loginbtn">Login</button>
+        <p>Already have an account? <a href="login.php">Login</a></p>
+
+        <button type="submit" name="signupbtn">Signup</button>
   </form>
 </body>
 </html>
