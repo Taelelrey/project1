@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story timeline</title>
-    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/autoresizing.css">
 </head>
 <body>
     <div class="container">
@@ -12,29 +13,73 @@
     <ul>
       <li>
         <div class="timeline-content">
-          <h1>Beggining</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h1>Beginning</h1>
+          <div class="wrapper">
+            <textarea id="txt1" spellcheck="false" placeholder="Type something here..." required></textarea>
+          </div>
+          <script>
+            const textarea1 = document.getElementById("txt1");
+            textarea1.addEventListener("keyup", e =>{
+              textarea1.style.height = "63px";
+              let scHeight = e.target.scrollHeight;
+              textarea1.style.height = `${scHeight}px`;
+            });
+          </script>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p> -->
         </div>
       </li>
       <li>
         <div class="timeline-content">
 
           <h1> Build up</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <div class="wrapper">
+            <textarea id="txt2" spellcheck="false" placeholder="Type something here..." required></textarea>
+          </div>
+          <script>
+            const textarea2 = document.getElementById("txt2");
+            textarea2.addEventListener("keyup", e =>{
+              textarea2.style.height = "63px";
+              let scHeight = e.target.scrollHeight;
+              textarea2.style.height = `${scHeight}px`;
+            });
+          </script>  
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p> -->
         </div>
       </li>
       <li>
         <div class="timeline-content">
 
           <h1> Criscendo</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <div class="wrapper">
+            <textarea id="txt3" spellcheck="false" placeholder="Type something here..." required></textarea>
+          </div>
+          <script>
+            const textarea3 = document.getElementById("txt3");
+            textarea3.addEventListener("keyup", e =>{
+              textarea3.style.height = "63px";
+              let scHeight = e.target.scrollHeight;
+              textarea3.style.height = `${scHeight}px`;
+            });
+          </script>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p> -->
         </div>
       </li>
       <li>
         <div class="timeline-content">
 
           <h1> End</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <div class="wrapper">
+            <textarea id="txt" spellcheck="false" placeholder="Type something here..." required></textarea>
+          </div>
+          <script>
+            const textarea = document.getElementById("txt");
+            textarea.addEventListener("keyup", e =>{
+              textarea.style.height = "63px";
+              let scHeight = e.target.scrollHeight;
+              textarea.style.height = `${scHeight}px`;
+            });
+          </script>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p> -->
         </div>
       </li>
     </ul>
